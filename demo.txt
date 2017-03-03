@@ -1,3 +1,27 @@
 Ê±¹â»ú´©Ëó
 
 Reads: 819327
+
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+$ mkdir learngit
+$ cd learngit
+$ pwd
+$ git init
+
+$ git add readme.txt
+$ git commit -m "wrote a readme file"
+
+$ git status
+$ git diff readme.txt 
+$ git add readme.txt
+$ git commit -m "add distributed"
+
+git log;key [q(quit)];
+git log --pretty=oneline;
+
+git reset --hard HEAD^;
+git reset --hard e09995b;
+
+git reflog;//all log
