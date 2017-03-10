@@ -25,3 +25,5 @@ git reset --hard HEAD^;
 git reset --hard e09995b;
 
 git reflog;//all log
+
+git checkout -- readme.txt
