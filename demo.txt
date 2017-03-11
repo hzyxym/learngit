@@ -109,3 +109,15 @@ $ git branch -D <name>
 用命令git branch --set-upstream branch-name origin/branch-name。
 $ git pull
 
+//创建标签
+$ git tag v1.0
+
+//历史提交
+$ git log --pretty=oneline --abbrev-commit
+$ git tag v0.9 6224937
+
+//查看标签信息
+$ git show v0.9
+
+//用-a指定标签名，-m指定说明文字：
+$ git tag -a v0.1 -m "version 0.1 released" 3628164
