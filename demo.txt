@@ -1,3 +1,4 @@
+//安装Git
 //git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
@@ -85,3 +86,26 @@ $ git merge dev
 
 //删除dev分支
 $ git branch -d dev
+
+//查看分支合并图
+$ git log --graph --pretty=oneline --abbrev-commit
+
+//当前工作现场“储藏”起来，等以后恢复现场后继续工作
+$ git stash
+
+//查看已“储藏”起来的工作现场
+$ git stash list
+
+//恢复工作现场，有两个办法 一是用git stash apply恢复，但是恢复后，stash内容并不删除，你需要用git stash drop来删除；
+另一种方式是用git stash pop，恢复的同时把stash内容也删了
+$ git stash apply 		$ git stash drop
+$ git stash pop
+
+//强行删除分支
+$ git branch -D <name>
+
+//远程最新的提交从origin/dev抓下来
+如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，
+用命令git branch --set-upstream branch-name origin/branch-name。
+$ git pull
+
