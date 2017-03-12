@@ -1,8 +1,20 @@
-*.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
+要忽略的文件 
+- .idea 文件夹 
+- .gradle 文件夹 
+- 所有的 build 文件夹 
+- 所有的 .iml 文件 
+- local.properties 文件
+所以：根目录的 .gitignore{
+  *.iml
+  .gradle
+  /local.properties
+  /.idea/workspace.xml
+  /.idea/libraries
+  .DS_Store
+  /build
+  /captures
+}
+module目录下的.gitignore{
+  /build
+  *.iml
+}
