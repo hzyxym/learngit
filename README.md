@@ -14,3 +14,6 @@
 2.还原误删的分支：
   首先想办法把被误删的分支的代码https://blog.csdn.net/fdipzone/article/details/50616386?utm_source=blogxgwz7
   最后：git push origin dev-5.1.0
+
+git rebase简介(高级篇)
+https://www.cnblogs.com/xingzc/p/5987011.html
