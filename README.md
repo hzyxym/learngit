@@ -17,3 +17,7 @@
 
 git rebase简介(高级篇)
 https://www.cnblogs.com/xingzc/p/5987011.html
+
+
+
+git reset --soft HEAD~1
