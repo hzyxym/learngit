@@ -25,3 +25,4 @@ git reset --soft HEAD~1
 添加git忽略文件无效解决办法：
 1.git rm -rf --cached .
 2.git add .
+3.git commit -m "clear cached"
